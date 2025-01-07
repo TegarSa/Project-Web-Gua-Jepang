@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gua Jepang</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="./Assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="hero-section">
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="./index.html" class="nav-item">BERANDA</a>
+                <a href="./about.html" class="nav-item">TENTANG</a>
+            </div>
+            <div class="nav-center">
+                <img src="./Assets/Logo.png" class="logo">
+            </div>
+            <div class="nav-right">
+                <a href="#body5" class="nav-item">LOKASI</a>
+                <a href="#footer" class="nav-item">KONTAK</a>
+            </div>
+        </nav>
+    </header>
+    <section class="body1" id="tentang">
+        <div class="about-container">
+            <!-- Gambar di atas deskripsi -->
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <a href="#img1">
+                        <img src="./Assets/img 13.jpeg" alt="Gua Jepang 1" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#img2">
+                        <img src="./Assets/img 14.jpeg" alt="Gua Jepang 2" />
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#img3">
+                        <img src="./Assets/img 15.jpeg" alt="Gua Jepang 3" />
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Modal untuk melihat gambar yang lebih besar -->
+            <div class="modal" id="img1">
+                <span class="close" onclick="closeModal('img1')">&times;</span>
+                <img src="./Assets/img 13.jpeg" alt="Gua Jepang 1" class="modal-content" />
+            </div>
+            <div class="modal" id="img2">
+                <span class="close" onclick="closeModal('img2')">&times;</span>
+                <img src="./Assets/img 14.jpeg" alt="Gua Jepang 2" class="modal-content" />
+            </div>
+            <div class="modal" id="img3">
+                <span class="close" onclick="closeModal('img3')">&times;</span>
+                <img src="./Assets/img 15.jpeg" alt="Gua Jepang 3" class="modal-content" />
+            </div>
+    
+            <!-- Deskripsi -->
+            <div class="about-description">
+                <h2>Wisata Gua Jepang Pundong</h2>
+                <p>
+                    Gua Jepang terletak di Pundong, Bantul, Yogyakarta. Tempat wisata ini menawarkan pengalaman yang menarik bagi pengunjung yang ingin menikmati keindahan alam serta pemandangan spektakuler dari Gua Jepang. 
+                    Dari gua ini, Anda dapat melihat pemandangan Pantai Parangtritis yang menakjubkan. Gua Jepang tidak hanya memiliki keindahan alam yang memesona, tetapi juga menyimpan banyak cerita sejarah tentang perjuangan rakyat Indonesia pada masa penjajahan.
+                </p>
+                <p>
+                    Wisatawan dapat menikmati pemandangan yang asri serta udara segar dari puncak bukit. Gua ini cocok untuk wisatawan yang mencari ketenangan dan ingin menikmati keindahan alam Jogja dari sudut yang berbeda.
+                </p>
+            </div>
+        </div>
+    </section>    
+</div>
+
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <!-- Logo Section -->
+        <div class="footer-logo">
+            <img src="./Assets/Logo.png" alt="Logo Gua Jepang" class="logo-img">
+        </div>
+
+        <!-- Contact Information -->
+        <div class="footer-contact">
+            <h4>Hubungi Kami</h4>
+            <div class="contact-info">
+                <p><i class="fas fa-address"></i>Detail Alamat dan Kontak Kami</p>
+                <p><i class="fas fa-map-marker-alt"></i> X8XH+7V8, Purwosari Dringo, Ngerco, Girijati, Pundong, Bantul Regency, Special Region of Yogyakarta 55872 </p>
+                <p><i class="fas fa-envelope"></i> guajepang@example.com</p>
+                <p><i class="fas fa-phone"></i> 0123-456-7890</p>
+            </div>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="footer-social">
+            <h4>Hubungkan dengan Kami</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/username" class="social-icon">
+                    <img src="./Assets/pngtree-whatsapp-icon-png-image_3584844-removebg-preview.png" alt="Whatsapp">
+                </a>
+                <a href="https://www.instagram.com/username" class="social-icon">
+                    <img src="https://static.vecteezy.com/system/resources/previews/045/934/243/non_2x/instagram-logo-icon-transparent-background-free-png.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/channel/username" class="social-icon">
+                    <img src="https://icons-for-free.com/iff/png/512/fb+icon-1320183899414660008.png" alt="Facebook">
+                </a>
+            </div>
+        </div>
+
+        <!-- Company Logos Section -->
+        <div class="footer-company-logos">
+            <h4>Support By :</h4>
+            <div class="company-logos">
+                <img src="./Assets/logo 1.png" alt="Company 1">
+                <img src="./Assets/logo 2.png" alt="Company 2">
+                <img src="./Assets/logo 3.png" alt="Company 3">
+                <img src="./Assets/logo 4.png" alt="Company 4">
+                <img src="./Assets/logo 5.png" alt="Company 5">
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        © 2024 Wisata Gua Jepang. All rights reserved.
+    </div>
+</footer>   
+    <script src="./index.js"></script>
+    <script src="./about.js"></script>
+</body>
+</html>
